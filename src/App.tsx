@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 type Theme = "light" | "dark";
 const App = () => {
   const [theme, setTheme] = useState<Theme>(
-    (localStorage.getItem("theme") as Theme) ?? "light"
+    (localStorage.getItem("theme") as Theme) ?? "dark"
   );
 
   const outlineRef = useRef<HTMLDivElement>(null);

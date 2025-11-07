@@ -87,8 +87,7 @@ export const teamData = [
   {
     name: "Javed",
     title: "CEO",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "/m.png",
     description:
       "Software Engineer with 3+ years of experience in developing web applications using modern technologies",
   },
