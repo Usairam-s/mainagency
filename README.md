@@ -1,0 +1,1 @@
+# A practice project built with React, TypeScript, Tailwind CSS, and Framer Motion. Features include dark mode, responsive design, and smooth animations. This project was created to sharpen my frontend skills and experiment with modern UI/UX patterns.

@@ -1,0 +1,48 @@
+import assets from "../assets/assets";
+import { motion } from "motion/react";
+const Hero = () => {
+  return (
+    <div
+      id="Hero"
+      className="flex flex-col items-center justify-center gap-6 min-h-screen px-4 sm:px-12 lg:px-24 xl:px-40 text-center w-full overflow-hidden text-gray-700 dark:text-white -mt-20"
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.7 }}
+        viewport={{ once: true }}
+        className="inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full"
+      >
+        <img className="w-20" src={assets.group_profile} alt="profile-icon" />
+        <p className="text-xs font-medium">Trusted by 100+ people</p>
+      </motion.div>
+
+      <motion.h1
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.8 }}
+        viewport={{ once: true }}
+        className="text-4xl sm:text-5xl md:text-6xl lg:text-[84px]  font-medium xl:leading-[95px] max-w-5xl "
+      >
+        Your Growth Starts{" "}
+        <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] text-transparent bg-clip-text">
+          With
+        </span>{" "}
+        Our Websites.
+      </motion.h1>
+
+      <motion.p
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 1 }}
+        viewport={{ once: true }}
+        className="text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 sm:max-w-lg pb-3"
+      >
+        Enhance your digital presence with mobile-optimized websites that work
+        nonstop to grow your brand.
+      </motion.p>
+    </div>
+  );
+};
+
+export default Hero;
