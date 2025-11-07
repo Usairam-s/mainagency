@@ -30,6 +30,7 @@ import google_logo from "./google_logo.svg";
 import menu_icon_dark from "./menu_icon_dark.svg";
 import sun_icon from "./sun_icon.svg";
 import moon_icon from "./moon_icon.svg";
+import { desc } from "motion/react-client";
 
 export const company_logos = [
   microsoft_logo,
@@ -74,16 +75,22 @@ export const teamData = [
     name: "Usairam Saleem",
     title: "CEO",
     image: "/u.jpg",
+    description:
+      "Software Engineer with 2+ years of experience in developing web applications using modern technologies",
   },
   {
-    name: "James Walker",
+    name: "Mutahir Abbas",
     title: "CEO",
     image: "/m.png",
+    description:
+      "Marketing Automation Specialist with 2+ years of experience in implementing and managing marketing automation platforms and tools.",
   },
   {
     name: "Javed",
     title: "CEO",
     image:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
+    description:
+      "Software Engineer with 3+ years of experience in developing web applications using modern technologies",
   },
 ];

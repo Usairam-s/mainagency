@@ -24,8 +24,8 @@ const Footer = ({ theme }: { theme: "light" | "dark" }) => {
             className="w-32 sm:2-44"
           />
           <p className="max-w-md">
-            From strategy to execution, we craft digital solutions that move
-            your business forward.
+            Enhance your digital presence with mobile-optimized websites that
+            work nonstop to grow your brand.
           </p>
           <ul className="flex gap-8">
             <li>
@@ -83,7 +83,7 @@ const Footer = ({ theme }: { theme: "light" | "dark" }) => {
         viewport={{ once: true }}
         className="pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap"
       >
-        <p>Copyright 2025 © Kazi Mehedi - All Right Reserved.</p>
+        <p>Copyright 2025 © Spectrum - All Right Reserved.</p>
         <div className="flex items-center justify-between gap-4">
           <img src={assets.facebook_icon} alt="fb-icon" className="" />
           <img src={assets.twitter_icon} alt="x-icon" className="" />
