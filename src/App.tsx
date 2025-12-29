@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 
 import Services from "./components/Services";
 import OurWork from "./components/OurWork";
-import Teams from "./components/Teams";
+// import Teams from "./components/Teams";
 import ContactUs from "./components/ContactUs";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
@@ -53,7 +53,7 @@ const App = () => {
 
       <Services />
       <OurWork />
-      <Teams />
+      {/* <Teams /> */}
       <ContactUs />
       <Footer theme={theme} />
       {/* CUSTOME MOUSE RING  */}
